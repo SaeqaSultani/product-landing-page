@@ -1,0 +1,56 @@
+<html>
+    <head>
+       <style>
+          .flex-container {
+  display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+/* For mobile phones: */
+[class*="col-"] {
+width: 100%;
+}
+}
+       </style>
+       
+        <link rel="stylesheet" type="text/css" href="css/custom-style.css">
+    </head>
+    <body>
+      <header id="header">
+        <center>
+            <img id="header-img"  src="https://th.bing.com/th/id/R.44f6af4852ef8c20f7f907e393811ca5?rik=BM4Jjlu6yQWpbA&pid=ImgRaw&r=0">
+        </center>
+        <center>
+            <nav id="nav-bar">
+        <a class="nav-link" href="#learn-more">Learn More</a>
+        <a class="nav-link" href="#request-coupon">Request Coupon</a>
+        <a class="nav-link" href="#buy-on-amazon">Buy On Amazon</a>
+    </nav>  
+</center>
+    </header>
+    <section id="learn-more">
+        <center>
+        <h1>The shoure micrphon of Joe Rogan Expreance</h1>  
+<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/ycPr5-27vSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+    </section>
+    <section id="request-coupon">
+        <center>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input id="email" type="email" placeholder="you@whate.com" name="email"></input>
+            <input id="submit" type="submit"></input>
+
+        </form>
+    </center>
+    </section>
+    <section id="buy-on-amazon">
+        <div class="flex-container">
+            <div><a href="amazon-affiliate-link">Buy On Amazon</a></div>
+            <div><a href="crutchf-affiliate-link">Buy On Crutchf</a></div>
+            <div><a href="shure-affiliate-link">Buy On Shure</a></div>
+          </div>
+    </section>
+
+    </body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
